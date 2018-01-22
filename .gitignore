@@ -1,0 +1,10 @@
+.cache
+.dotfiles.git
+Downloads
+go
+.*history
+.ICEauthority
+.local
+.rnd
+tmp
+.Xauthority
