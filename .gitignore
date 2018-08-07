@@ -7,4 +7,5 @@ go
 .local
 .rnd
 tmp
+.virtualenvs
 .Xauthority
