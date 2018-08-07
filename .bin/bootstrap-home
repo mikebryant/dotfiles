@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -eu
+
+if [ ! -d ${HOME}/.dotfiles.git ]; then
+  git clone --bare https://github.com/mikebryant/dotfiles.git ${HOME}/.dotfiles.git
+fi
+dotfiles () {
+   /usr/bin/git --git-dir=${HOME}/.dotfiles.git/ --work-tree=${HOME} $@
+}
+dotfiles checkout
+dotfiles config status.showUntrackedFiles no
+dotfiles remote set-url origin git@github.com:mikebryant/dotfiles.git
+
+~/.bin/setup-home

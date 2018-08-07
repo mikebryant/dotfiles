@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+
+if [ ! -d ${HOME}/go/src/keybase/private/mikebryant/dotfiles ]; then
+  git clone keybase://private/mikebryant/dotfiles ${HOME}/go/src/keybase/private/mikebryant/dotfiles
+fi
+
