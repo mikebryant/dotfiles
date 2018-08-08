@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PATH=${HOME}/.bin:$PATH
+export PATH=${HOME}/.local/share/bin:$PATH
 
 
 # Bash
