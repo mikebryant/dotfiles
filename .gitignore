@@ -1,4 +1,5 @@
 .cache
+.dbus
 .dotfiles.git
 Downloads
 go
