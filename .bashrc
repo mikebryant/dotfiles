@@ -30,9 +30,7 @@ export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 ## Make watch an alias so it works with k8sh
 alias watch='watch '
 
-# XDG Fixes
-export RANDFILE=${HOME}/.cache/openssl/rnd
-export RIPGREP_CONFIG_PATH=${HOME}/.config/ripgrep/config
+source ${HOME}/.config/bash/*.bashrc
 
 # Dotfiles
 
