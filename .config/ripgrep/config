@@ -1,0 +1,8 @@
+# Search hidden files if they're not ignored by VCS etc
+--hidden
+
+# Ignore the .git directory
+--iglob=!.git
+
+# Only use case-sensitivity if input is not all lowercase
+--smart-case
