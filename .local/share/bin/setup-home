@@ -6,3 +6,13 @@ if [ ! -d ${HOME}/go/src/keybase/private/mikebryant/dotfiles ]; then
   git clone keybase://private/mikebryant/dotfiles ${HOME}/go/src/keybase/private/mikebryant/dotfiles
 fi
 
+sudo apt-add-repository --yes ppa:lutris-team/lutris
+sudo apt-get install --yes \
+  curl \
+  git \
+  keepass2 \
+  lutris \
+  vim \
+  ;
+
+# lutris lutris:install/magic-the-gathering-arena-latest-self-updating
