@@ -4,5 +4,7 @@
 # Ignore the .git directory
 --iglob=!.git
 
+--iglob=!__fixtures__
+
 # Only use case-sensitivity if input is not all lowercase
 --smart-case

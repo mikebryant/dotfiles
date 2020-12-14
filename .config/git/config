@@ -1,5 +1,11 @@
 [push]
 	default = current
 [user]
-	email = mike@mikebryant.me.uk
+	email = m@omg.network
 	name = Mike Bryant
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[diff "sopsdiffer"]
+	textconv = sops -d
+[core]
+	editor = vim

@@ -8,11 +8,22 @@ fi
 
 sudo apt-add-repository --yes ppa:lutris-team/lutris
 sudo apt-get install --yes \
+  byobu \
   curl \
   git \
+  jq \
   keepass2 \
   lutris \
+  meld \
+  npm \
   vim \
   ;
+
+sudo snap install --classic code
+sudo snap install geth
+sudo snap install --classic go
+sudo snap install --classic google-cloud-sdk
+sudo snap install --classic kubectl
+sudo snap install --classic ripgrep
 
 # lutris lutris:install/magic-the-gathering-arena-latest-self-updating
